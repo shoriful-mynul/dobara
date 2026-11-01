@@ -4,6 +4,14 @@
 
 Dobara compares a claim you wrote against an earlier and a current source excerpt using local `qwen3:4b` through Ollama. It shows original evidence passages and leaves the final judgement to you. It does not establish universal factual truth, authenticate pasted text, or fetch a supplied source URL.
 
+## Live demo
+
+[Try Dobara](https://giants-physically-incoming-african.trycloudflare.com)
+
+This temporary demo is served from the developer's laptop through a Cloudflare Quick Tunnel. Qwen3 inference runs on that laptop through Ollama, not on your phone or computer. The link works only while the laptop, app, Ollama and tunnel are running, and may change when the tunnel restarts. If it is unavailable, follow the local setup instructions below.
+
+Use the built-in fictional examples and avoid sensitive information. Demo requests travel through Cloudflare to the developer's laptop. There are no separate user accounts: saved comparisons and reviews are shared among demo visitors and can be viewed, changed or deleted by others. The interface's references to “this device” and “your computer” describe local installation; in this public demo, saving stores data on the developer's laptop.
+
 ## Why Dobara exists
 
 A scholarship notice changes its eligibility rules. A researcher updates a source. A writer's original citation no longer says what it used to say. The claim based on the earlier text can remain in circulation.
