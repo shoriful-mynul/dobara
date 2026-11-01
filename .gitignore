@@ -1,0 +1,31 @@
+# Environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local user data (saved comparisons live here)
+data/
+*.sqlite3
+*.sqlite3-journal
+*.db
+
+# Secrets and local configuration
+.env
+.env.*
+*.pem
+*.key
+
+# Local backups and editor files
+*.bak
+*.orig
+backup/
+backups/
+.idea/
+.vscode/
+*.zip
+main_before*.py
+main_*backup*.py
